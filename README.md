@@ -11,3 +11,4 @@ This repo has been created for [Software Engineering Summative 1](https://nchlon
 # This is a sample comment
 this_is = sample_code
 ```
+This project was managed via GitHub projects. Status and label functionality within GitHub projects was used to keep track of relevant work.  
