@@ -6,6 +6,7 @@ This repo has been created for [Software Engineering Summative 1](https://nchlon
 ![NCH London Image](images/nch-at-northeastern-st-katharine-docks-1536x922.jpg)
 
 
+
 ## 1.  **Propose a new product for your employer or a small-scale side project for your organisation**
 
 **Project Charter**
@@ -37,9 +38,11 @@ This repo has been created for [Software Engineering Summative 1](https://nchlon
 -   At project outset the principal risk is that the application is more complex than appears to be required by the assessment brief and as a result will take longer to complete than expected. Despite this risk a minimum viable product will be developed and submitted as the product is of significant value to the organisation.
 
 
-## 2.  **Design your product using Figma or an alternative**
+
+## 2.  **Design your product using Figma or an alternative**
 
 ![Prototype](images/prototype.png)
+
 
 
 ## 3.  **Outline how you planned your project using modern planning techniques. Reflect on your planning using a project Project Management Tool** 
@@ -49,6 +52,7 @@ A hybrid methodology was selected for management of the project as it is an assi
 The schedule and cost for this project are fixed as the schedule is determined by the university and the cost must be 0. I have selected a somewhat open scope for the project to leave open the possibility of iterative improvements. A stretch goal is to request feedback from those that might actually use an adversarial patching tool within my workplace; though the management must be linear in that a hard deadline must be met, this visibility would result in development that is more aligned with agile methodologies.
 
 GitHub Projects has been a very effective tool for managing the tasks that need to be completed for this assignment. In addition to the 10 tasks that are detailed on the Assessment Brief, issues were created and labelled for tasks that needed to be completed once coding was underway. The ability to reorder and label these was valuable, as was the ability to add comments containing detail and the options to filter out tasks that had been completed. The titles of issues that did not represent a task that appears on the Assessment Brief were prefixed with “---” to ensure that they stood out visually. 
+
 
 
 ## 4. **Capture the requirements for your project as issues or tickets shown via your chosen Project Management Tool**
