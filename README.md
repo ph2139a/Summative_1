@@ -5,7 +5,7 @@ This repo has been created for [Software Engineering Summative 1](https://nchlon
 
 ![NCH London Image](images/nch-at-northeastern-st-katharine-docks-1536x922.jpg)
 
-
+&nbsp;
 
 ## 1.  **Propose a new product for your employer or a small-scale side project for your organisation**
 
@@ -37,13 +37,13 @@ This repo has been created for [Software Engineering Summative 1](https://nchlon
 
 -   At project outset the principal risk is that the application is more complex than appears to be required by the assessment brief and as a result will take longer to complete than expected. Despite this risk a minimum viable product will be developed and submitted as the product is of significant value to the organisation.
 
-
+&nbsp;
 
 ## 2.  **Design your product using Figma or an alternative**
 
 ![Prototype](images/prototype.png)
 
-
+&nbsp;
 
 ## 3.  **Outline how you planned your project using modern planning techniques. Reflect on your planning using a project Project Management Tool** 
 
@@ -53,12 +53,35 @@ The schedule and cost for this project are fixed as the schedule is determined b
 
 GitHub Projects has been a very effective tool for managing the tasks that need to be completed for this assignment. In addition to the 10 tasks that are detailed on the Assessment Brief, issues were created and labelled for tasks that needed to be completed once coding was underway. The ability to reorder and label these was valuable, as was the ability to add comments containing detail and the options to filter out tasks that had been completed. The titles of issues that did not represent a task that appears on the Assessment Brief were prefixed with “---” to ensure that they stood out visually. 
 
-
+&nbsp;
 
 ## 4. **Capture the requirements for your project as issues or tickets shown via your chosen Project Management Tool**
 
 ![Project Management Tool](images/project_management_tool.png)
 
+&nbsp;
+
+## 5. **Summarise how you built the minimal viable product or a prototype step by step in a written report** 
+
+The first step towards development of a minimum viable product (MVP) for this project was to identify an adversarial patching implementation that could serve as a starting point for my work. I researched the topic and focussed on the identification of attacks on the specific architecture that is relevant to my workplace. This research led me to the Github page for Adversarial Robustness Toolbox (ART) (Trusted-AI, 2023a) and a series of example notebooks. 
+
+I selected the notebook that best fit my requirements and imported it into Google Colab (Trusted-AI, 2023b). At runtime the notebook caused a series of errors. I edited the code to resolve these, refactored to reduce complexity and added comments and markdown that make the more complex processes easier to understand. As one of my goals is to facilitate user selection of a target class I researched and implemented fiftyone (voxel51, 2023) to facilitate the retrieval of a subset of images that appear in the dataset that was used to train the model that is "attacked" by the patching. The pre-trained model, You Only Look Once (YOLO) (Redmon et al, 2016), was trained on data from COCO (Lin et al, 2014).
+
+My next step was to develop a test of my implementation. I identified a suitable image on the internet and wrote code to display the object detection output before and after the application of the adversarial patch. At MVP the patching represented an effective attack on the object detection model in that it caused the model to behave erratically and introduced unexpected results in the model's output. The next steps for development will focus on improving the patching so that the patch itself is classified as expected by YOLO.
+
+&nbsp;
+
+**References**
+
+Redmon, J., Divvala, S., Girshick, R. and Farhadi, A. (2016). You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788).
+
+Trusted-AI (2023). Adversarial Robustness Toolbox. Available at: <https://github.com/Trusted-AI/adversarial-robustness-toolbox/tree/main> (Accessed: 21/12/2023)
+
+Trusted-AI (2023). ART - Adversarial Patch - PyTorch - YOLO. Available at (<https://github.com/Trusted-AI/adversarial-robustness-toolbox/blob/main/notebooks/adversarial_patch/attack_adversarial_patch_pytorch_yolo.ipynb> (Accessed: 21/12/2023)
+
+Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P. and Zitnick, C.L. (2014). Microsoft coco: Common objects in context. In Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13 (pp. 740-755). Springer International Publishing.
+
+voxel51 (2023). fiftyone. Available at: <https://github.com/voxel51/fiftyone>
 
 
 
