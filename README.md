@@ -84,6 +84,22 @@ Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, 
 voxel51 (2023). fiftyone. Available at: <https://github.com/voxel51/fiftyone>
 
 
+&nbsp;
+
+## 6. **Use Test Driven Development to produce an initial codebase for your product**
+
+Test Driven Development (TDD) was used to write a function that identifies suitable images for patch training in the dataset that was retrieved from COCO via fiftyone. 
+
+While testing the MVP an issue was identified whereby YOLO was failing to identify the target class in many of the target class-tagged images that were retrieved from COCO. This suggests that the pre-trained instance of YOLO that is implemented in this script performs poorly at identifying examples of some classes
+
+TDD was used to define a function that iterates through the dataset that was retrieved from COCO and outputs a 4-dimensional array that represents a subset of the images that were retrieved via fiftyone in which YOLOv5 as implemented in this notebook detects only the target class. The function also returns multi-dimensional arrays representing object detections as a matching set of detections are required for adversarial patch generation. Testing was completed via ipytest. 
+
+A test was created that defined the expected behaviour of a function named target_class_images_and_detections_only. This test was written as the function test_target_class_images_and_detections_only. The test was run to verify that it failed before coding took place to address the issue. The test was run repeatedly until it passed, asserting that the set of objects that are detected in the function's output contain the target class name only. At this point the function was refactored and tested with a different target class. This process was repeated until the code was considered to perform reliably for the task in question. 
+
+Although it was not feasible to apply TDD to the entirety of the script in question due to its complexity and the limited time available for this assignment the value of the approach is clear, particularly in its drive towards concise modularisation of code as it is written.
+
+&nbsp;
+
 
 ```
 # This is a sample comment
