@@ -133,25 +133,25 @@ The .ipynb files that contain the project’s codebase can be opened in Google C
 
 **Summative_1_Object_Detection_Patching_YOLO**
 
-This notebook requires a GPU runtime. To select a GPU runtime in Google Colab navigate to Runtime - Change runtime type on the ribbon and select T4 GPU. Please note that the notebook will take approximately 10 minutes to run with the default settings. 
+This notebook requires a GPU runtime. To select a GPU runtime in Google Colab navigate to _Runtime - Change runtime type_ on the ribbon and select T4 GPU. Please note that the notebook will take approximately 10 minutes to run with the default settings. 
 
 ![Runtime selection](images/colab_runtime_type.png)
 
-The notebook requires an image titled “test.jpg” to be loaded into the environment’s file manager via the Files section of the sidebar that appears on the left hand side of the screen. The test image that was used during development is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/test.jpg. 
+The notebook requires an image titled “test.jpg” to be loaded into the environment’s file manager via the _Files_ section of the sidebar that appears on the left hand side of the screen. The test image that was used during development is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/test.jpg. 
 
 ![File selection](images/colab_files_section.png)
 
-The notebook is designed to be easily navigable via the Table of contents section of the sidebar. 
+The notebook is designed to be easily navigable via the _Table of contents_ section of the sidebar. 
 
 ![Table of contents](images/colab_table_of_contents.png)
 
-The ribbon command Runtime - Run all will run the notebook’s cells in sequence. The Model Definition section of the code provides an option to create and attack a YOLOv5 or YOLOv3 model. Please note that YOLOv3 models caused intermittent RAM issues with Google Colab and may require further development work to implement effectively.  
+The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequence. The **Model Definition** section of the code provides an option to create and attack a YOLOv5 or YOLOv3 model. Please note that YOLOv3 models caused intermittent RAM issues with Google Colab and may require further development work to implement effectively.  
 
 &nbsp;
 
 **Summative_1_Object_Detection_Patching_YOLO**
 
-This notebook does not require a GPU runtime. The ribbon command Runtime - Run all will run the notebook’s cells in sequence. 
+This notebook does not require a GPU runtime. The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequence. 
 
 The URL that appears in the notebook’s final cell can be used to access the prototype application. Clicking on the URL will direct the user to a landing page for a tunnel website. Please note that this URL is generated dynamically and will be formatted as below: 
 
@@ -169,7 +169,7 @@ Please upload an image to test the application. The image that was used to produ
 
 ![Protoype](images/streamlit_application_with_output.png)
 
-Any issues with Google Colab should first be addressed by restarting the notebook via Runtime - Disconnect and delete runtime. 
+Any issues with Google Colab should first be addressed by restarting the notebook via _Runtime - Disconnect_ and delete runtime and restarting via _Runtime -  Run all_.
 
 &nbsp;
 
