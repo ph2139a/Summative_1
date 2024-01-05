@@ -108,7 +108,7 @@ As development progressed it became clear that it would not be possible to produ
 
 Github was used to manage changes to these scripts. 
 
-![Gitlab Commit](images/gitlab commit.png)
+![Gitlab Commit](images/gitlab_commit.png)
 
 
 &nbsp;
