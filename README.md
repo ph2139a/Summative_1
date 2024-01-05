@@ -158,9 +158,9 @@ The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequen
 
 &nbsp;
 
-**Summative_1_Object_Detection_Patching_YOLO**
+**Summative_1_Streamlit_Front_End**
 
-This notebook does not require a GPU runtime. The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequence. 
+This notebook does not require a GPU runtime. The ribbon command Runtime - Run all will run the notebook’s cells in sequence and start a Streamlit application. The application applies XXX’s generic adversarial patch to an uploaded image. Please note that the patch that is applied to the uploaded image is obtained from a static image that is stored at https://github.com/ph2139a/Summative_1/blob/main/images/adversarial_mask.jpg. 
 
 The URL that appears in the notebook’s final cell can be used to access the prototype application. Clicking on the URL will direct the user to a landing page for a tunnel website. Please note that this URL is generated dynamically and will be formatted as below: 
 
@@ -181,8 +181,6 @@ Please enter the IP Address that is generated in the notebook’s penultimate ce
 Please upload an image to test the application. The image that was used to produce the below screenshot is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/koala_climbing_tree.jpg. 
 
 ![Protoype](images/streamlit_application_with_output.png)
-
-&nbsp;
 
 Any issues with Google Colab should first be addressed by restarting the notebook via _Runtime - Disconnect_ and delete runtime and restarting via _Runtime -  Run all_.
 
