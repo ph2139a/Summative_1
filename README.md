@@ -94,7 +94,7 @@ While testing the MVP an issue was identified whereby YOLO was failing to identi
 
 TDD was used to define a function that iterates through the dataset that was retrieved from COCO and outputs a 4-dimensional array that represents a subset of the images that were retrieved via fiftyone in which YOLOv5 as implemented in this notebook detects only the target class. The function also returns multi-dimensional arrays representing object detections as a matching set of detections are required for adversarial patch generation. Testing was completed via ipytest. 
 
-A test was created that defined the expected behaviour of a function named target_class_images_and_detections_only. This test was written as the function test_target_class_images_and_detections_only. The test was run to verify that it failed before coding took place to address the issue. The test was run repeatedly until it passed, asserting that the set of objects that are detected in the function's output contain the target class name only. At this point the function was refactored and tested with a different target class. This process was repeated until the code was considered to perform reliably for the task in question. 
+A test was created that defined the expected behaviour of a function named _target_class_images_and_detections_only_. This test was written as the function _test_target_class_images_and_detections_only_. The test was run to verify that it failed before coding took place to address the issue. The test was run repeatedly until it passed, asserting that the set of objects that are detected in the function's output contain the target class name only. At this point the function was refactored and tested with a different target class. This process was repeated until the code was considered to perform reliably for the task in question. 
 
 Although it was not feasible to apply TDD to the entirety of the script in question due to its complexity and the limited time available for this assignment the value of the approach is clear, particularly in its drive towards concise modularisation of code as it is written.
 
@@ -129,8 +129,43 @@ The .ipynb files that contain the project’s codebase can be opened in Google C
 -   Summative_1_Streamlit_Front_End.ipynb: <a target="_blank" href="https://colab.research.google.com/github/ph2139a/Summative_1/blob/main/Summative_1_Streamlit_Front_End.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
+**Summative_1_Object_Detection_Patching_YOLO**
 
+This notebook requires a GPU runtime. To select a GPU runtime in Google Colab navigate to Runtime - Change runtime type on the ribbon and select T4 GPU. Please note that the notebook will take approximately 10 minutes to run with the default settings. 
 
+![Runtime selection](images/colab_runtime.png)
+
+The notebook requires an image titled “test.jpg” to be loaded into the environment’s file manager via the Files section of the sidebar that appears on the left hand side of the screen. The test image that was used during development is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/test.jpg. 
+
+![File selection](images/colab_files_section.png)
+
+The notebook is designed to be easily navigable via the Table of contents section of the sidebar. 
+
+![Table of contents](images/colab_table_of_contents.png)
+
+The ribbon command Runtime - Run all will run the notebook’s cells in sequence. The Model Definition section of the code provides an option to create and attack a YOLOv5 or YOLOv3 model. Please note that YOLOv3 models caused intermittent RAM issues with Google Colab and may require further development work to implement effectively.  
+
+**Summative_1_Object_Detection_Patching_YOLO**
+
+This notebook does not require a GPU runtime. The ribbon command Runtime - Run all will run the notebook’s cells in sequence. 
+
+The URL that appears in the notebook’s final cell can be used to access the prototype application. Clicking on the URL will direct the user to a landing page for a tunnel website. Please note that this URL is generated dynamically and will be formatted as below: 
+
+```
+your url is: https://long-buses-buy.loca.lt
+```
+
+Please enter the IP Address that is generated in the notebook’s penultimate cell into the Endpoint IP box to access the application. 
+
+![Tunnel IP Location](images/tunnel_ip_location.png)
+![Tunnel landing page](images/tunnel_landing_with_url.png)
+![Application header](images/application_with_url.png)
+
+Please upload an image to test the application. The image that was used to produce the below screenshot is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/koala_climbing_tree.jpg. 
+
+Any issues with Google Colab should first be addressed by restarting the notebook via Runtime - Disconnect and delete runtime. 
+
+&nbsp;
 
 ```
 # This is a sample comment
