@@ -160,7 +160,7 @@ The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequen
 
 **Summative_1_Streamlit_Front_End**
 
-This notebook does not require a GPU runtime. The ribbon command Runtime - Run all will run the notebook’s cells in sequence and start a Streamlit application. The application applies XXX’s generic adversarial patch to an uploaded image. Please note that the patch that is applied to the uploaded image is obtained from a static image that is stored at https://github.com/ph2139a/Summative_1/blob/main/images/adversarial_mask.jpg. 
+This notebook does not require a GPU runtime and has an expected runtime of around 1 minute. The ribbon command Runtime - Run all will run the notebook’s cells in sequence and start a Streamlit application. The application applies XXX’s generic adversarial patch to an uploaded image. Please note that the patch that is applied to the uploaded image is obtained from a static image that is stored at https://github.com/ph2139a/Summative_1/blob/main/images/adversarial_mask.jpg. 
 
 The URL that appears in the notebook’s final cell can be used to access the prototype application. Clicking on the URL will direct the user to a landing page for a tunnel website. Please note that this URL is generated dynamically and will be formatted as below: 
 
