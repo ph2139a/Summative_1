@@ -25,13 +25,13 @@ This repo has been created for [Software Engineering Summative 1](https://nchlon
 
 -   A GitHub repository containing a web application that permits image upload, adversarial patch generation, patch application and image presentation.
 
--   A zip file from which the application can be run
+-   A zip file from which the application can be run.
 
--   A PDF copy of this README file
+-   A PDF copy of this README file.
 
 **Task List & Schedule**
 
--   This project's tasks and schedule are managed via GitHub projects. 
+-   This project's tasks and schedule are managed via GitHub Projects. 
 
 **Risk Register**
 
