@@ -45,13 +45,13 @@ This repo has been created for [Software Engineering Summative 1](https://nchlon
 
 &nbsp;
 
-## 3.  **Outline how you planned your project using modern planning techniques. Reflect on your planning using a project Project Management Tool** 
+## 3.  **Outline how you planned your project using modern planning techniques. Reflect on your planning using a Project Management Tool** 
 
-A hybrid methodology was selected for management of the project as it is an assignment that will be worked on over six specific working days as part of my usual working pattern. The methodology is linear in that it has a series of sequential steps, essentially those that are listed as items 1-10 on the Assessment Brief for this piece of work. On the other hand the development will be somewhat iterative; an MVP will be developed and iterated upon as far as time permits, hopefully resulting in a product that is operationally valuable within my workplace. 
+A hybrid methodology was selected for management of the project as it is an assignment that will be worked on over six specific working days as part of my usual working pattern. The methodology is linear in that it has a series of sequential steps, essentially those that are listed as items 1-10 on the Assessment Brief for this piece of work. On the other hand the development will be somewhat iterative; a minimum viable product (MVP) will be developed and iterated upon as far as time permits, hopefully resulting in a product that is operationally valuable within my workplace. 
 
-The schedule and cost for this project are fixed as the schedule is determined by the university and the cost must be 0. I have selected a somewhat open scope for the project to leave open the possibility of iterative improvements. A stretch goal is to request feedback from those that might actually use an adversarial patching tool within my workplace; though the management must be linear in that a hard deadline must be met, this visibility would result in development that is more aligned with agile methodologies.
+The schedule and cost for this project are fixed as the schedule is determined by the university and the cost must be 0. I have selected a somewhat open scope for the project to leave open the possibility of iterative improvements. A stretch goal is to request feedback from those that might actually use an adversarial patching tool within my workplace; though the management of the project must be linear in that a hard deadline must be met, this visibility would result in development that is more aligned with an agile methodology.
 
-GitHub Projects has been a very effective tool for managing the tasks that need to be completed for this assignment. In addition to the 10 tasks that are detailed on the Assessment Brief, issues were created and labelled for tasks that needed to be completed once coding was underway. The ability to reorder and label these was valuable, as was the ability to add comments containing detail and the options to filter out tasks that had been completed. The titles of issues that did not represent a task that appears on the Assessment Brief were prefixed with “---” to ensure that they stood out visually. 
+GitHub Projects has been a very effective tool for managing the tasks that need to be completed for this assignment. In addition to the 10 tasks that are detailed on the Assessment Brief, issues were created and labelled for tasks that needed to be completed once coding was underway. The ability to reorder and label these was valuable, as was the ability to add comments containing detail and the options to filter out tasks that had been completed. The titles of manually-generated issues that did not represent a task that appears on the Assessment Brief were prefixed with “---” to ensure that they stood out visually. 
 
 &nbsp;
 
@@ -75,7 +75,7 @@ My next step was to develop a test of my implementation. I identified a suitable
 
 Test Driven Development (TDD) was used to write a function that identifies suitable images for patch training in the dataset that was retrieved from COCO via fiftyone. 
 
-While testing the MVP an issue was identified whereby YOLO was failing to identify the target class in many of the target class-tagged images that were retrieved from COCO. This suggests that the pre-trained instance of YOLO that is implemented in this script performs poorly at identifying examples of some classes
+While testing the MVP an issue was identified whereby YOLO was failing to identify the target class in many of the target class-tagged images that were retrieved from COCO. This suggests that the pre-trained instance of YOLO that is implemented in this script performs poorly at identifying examples of some classes.
 
 TDD was used to define a function that iterates through the dataset that was retrieved from COCO and outputs a 4-dimensional array that represents a subset of the images that were retrieved via fiftyone in which YOLOv5 as implemented in this notebook detects only the target class. The function also returns multi-dimensional arrays representing object detections as a matching set of detections are required for adversarial patch generation. Testing was completed via ipytest and a test was created that defined the expected behaviour of a function named _target_class_images_and_detections_only_. 
 
@@ -94,12 +94,13 @@ Although it was not feasible to apply TDD to the entirety of the script in quest
 &nbsp;
 
 ## 7. **Use GitHub to add features gradually**
+
 As development progressed it became clear that it would not be possible to produce a web application that implemented the MVP code in full within the available time. The code is complex and requires a series of pip installs that are both time-consuming and likely to cause issues on local machines. For this reason development time was split across two .ipynb files:
 
 -   Summative_1_Object_Detection_Patching_YOLO - the MVP code discussed in sections 5 and 6 above. The code implements an adversarial patching attack on a You Only Look Once (YOLO) Pytorch model.
 -   Summative_1_Streamlit_Front_End - code for the generation of a web application that provides a functional prototype of the product design that appears in section 2 above. 
 
-Github was used to manage changes to these scripts. Branches were created for feature, fix and chore-type changes as suggested by Frackson (2023); these were updated until the feature worked as desired and then merged into main. 
+Github was used to manage changes to these scripts. Branches were created for feature, fix and chore-type changes as suggested by Frackson (2023). These were updated until features worked as required and then merged into main. 
 
 ![Gitlab Commit](images/gitlab_commit.png)
 
@@ -166,7 +167,7 @@ Please upload an image to test the application. The image that was used to produ
 
 ![Protoype](images/streamlit_application_with_output.png)
 
-Any issues with Google Colab should first be addressed by restarting the notebook via _Runtime - Disconnect_ and delete runtime and restarting via _Runtime -  Run all_. A backup dynamically-generated hyperlink for accessing the application appears in the first cell of the notebook. 
+Any issues with Google Colab should first be addressed by restarting the notebook via _Runtime - Disconnect_ and restarting via _Runtime -  Run all_. A backup dynamically-generated hyperlink for accessing the application appears in the first cell of the notebook formatted as below:  
 
 ```
 Your tunnel url https://outlined-probably-approaches-squad.trycloudflare.com
@@ -176,7 +177,7 @@ Your tunnel url https://outlined-probably-approaches-squad.trycloudflare.com
 
 ## 9. **Document and use a ticketing system according to the documentation. Conventionally one ticket is one feature corresponding to one branch and one pull request**
     
-This project is managed via Github Projects. This section will describe the process of using Github Projects to track the processes of creating a feature branch, update the branch and merging into the main branch. The feature that will be added to Summative_1_Streamlit_Front_End is a drop-down menu that will allow a user to select a COCO target class from a list of available classes. 
+This project is managed via Github Projects. This section will describe the process of using Github Projects to track the processes of creating a feature branch, updating the branch and merging into the main branch. The feature that will be added to Summative_1_Streamlit_Front_End is a drop-down menu that will allow a user to select a COCO target class from a list of available classes. 
 
 The project’s codebase has been managed via upload to Github’s UI. The first step is to download the relevant notebook via the UI:
 
@@ -196,7 +197,7 @@ At review of the code I realised that it would be valuable to include a URL refe
 
 &nbsp;
 
-The branch can now be merged into main. The branch can be deleted as there is no further requirement at this time for development on the _feat-target-class-selection-dropdown branch_. Should further development be required in future the branch can be restored via the Pull Requests menu.  
+The branch can now be merged into main. At merge the branch can be deleted as there is no further requirement at this time for development on the _feat-target-class-selection-dropdown branch_. Should further development be required in future the branch can be restored via the Pull Requests menu.  
 
 ![List of pull requests](images/pull_requests.png)
 
@@ -210,9 +211,9 @@ The application generated via the Summative_1_Streamlit_Front_End notebook has b
 
 ## **10. Evaluate your design in a dedicated “Evaluation” section of your README**
 
-The design has been realised effectively in that the prototype application that can be generated via the Summative_1_Streamlit_Front_End notebook closely matches the prototype design that appears in Section 2 above. A functional codebase has been developed for the adversarial patching task but could not be implemented into the web application during the available time. A notebook demonstrating this functionality is provided alongside the notebook.
+The design has been realised effectively in that the prototype application that can be generated via the Summative_1_Streamlit_Front_End notebook closely matches the prototype design that appears in Section 2 above. A functional codebase has been developed for the adversarial patching task but could not be implemented into the web application during the available time. This codebase is availabe in the Summative_1_Object_Detection_Patching_YOLO notebook. 
 
-The design addresses a traditional business problem: there is a need within my organisation for an application that applies adversarial patches to images. This design meets that need by providing an easy-to-use user interface (UI) for applying an adversarial patch to an image via open-source tooling. A specific target class can be selected as required for the use case. 
+The prototype application's design addresses a traditional business problem: there is a need within my organisation for an application that applies adversarial patches to images. This design meets that need by providing an easy-to-use user interface (UI) for applying an adversarial patch to an image via open-source tooling. A specific target class can be selected as required for the use case. 
 
 Had time been available to merge the Summative_1_Object_Detection_Patching_YOLO and Summative_1_Streamlit_Front_End codebases the design would require some adaptation to account for the complexity of the dynamic patching process. In this case the design could be improved via the addition of additional UI elements that inform the user about the likely runtime; that facilitate model selection; and that provide functionality to download, store and upload any generated patches. 
 
