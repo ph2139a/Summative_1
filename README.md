@@ -126,7 +126,8 @@ The .ipynb files that contain the project’s codebase can be opened in Google C
 
 -   Summative_1_Object_Detection_Patching_YOLO.ipynb: <a target="_blank" href="https://colab.research.google.com/github/ph2139a/Summative_1/blob/main/Summative_1_Object_Detection_Patching_YOLO.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
--   Summative_1_Streamlit_Front_End.ipynb
+-   Summative_1_Streamlit_Front_End.ipynb: <a target="_blank" href="https://colab.research.google.com/github/ph2139a/Summative_1/blob/main/Summative_1_Streamlit_Front_End.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
 
 
