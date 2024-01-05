@@ -182,7 +182,11 @@ Please upload an image to test the application. The image that was used to produ
 
 ![Protoype](images/streamlit_application_with_output.png)
 
-Any issues with Google Colab should first be addressed by restarting the notebook via _Runtime - Disconnect_ and delete runtime and restarting via _Runtime -  Run all_.
+Any issues with Google Colab should first be addressed by restarting the notebook via _Runtime - Disconnect_ and delete runtime and restarting via _Runtime -  Run all_. A backup dynamically-generated hyperlink for accessing the application appears in the first cell of the notebook. 
+
+```
+Your tunnel url https://outlined-probably-approaches-squad.trycloudflare.com
+```
 
 &nbsp;
 
