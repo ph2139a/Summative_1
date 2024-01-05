@@ -200,6 +200,16 @@ The application generated via the Summative_1_Streamlit_Front_End notebook has b
 
 &nbsp;
 
+## **10. Evaluate your design in a dedicated “Evaluation” section of your README**
+
+The design has been realised effectively in that the prototype application that can be generated via the Summative_1_Streamlit_Front_End notebook closely matches the prototype design that appears in Section 2 above. A functional codebase has been developed for the adversarial patching task but could not be implemented into the web application during the available time. A notebook demonstrating this functionality is provided alongside the notebook.
+
+The design addresses a traditional business problem: there is a need within my organisation for an application that applies adversarial patches to images. This design meets that need by providing an easy-to-use user interface (UI) for applying an adversarial patch to an image via open-source tooling. A specific target class can be selected as required for the use case. 
+
+Had time been available to merge the Summative_1_Object_Detection_Patching_YOLO and Summative_1_Streamlit_Front_End codebases the design would require some adaptation to account for the complexity of the dynamic patching process. In this case the design could be improved via the addition of additional UI elements that inform the user about the likely runtime; that facilitate model selection; and that provide functionality to download, store and upload any generated patches. 
+
+&nbsp;
+
 ## **References**
 
 Frackson, J. (2023) 4 Tips for Effective Pull Request Naming. Available at: https://blog.montrealanalytics.com/4-tips-for-effective-pull-request-naming-f60793998f04 (Accessed: 05/01/20240 
