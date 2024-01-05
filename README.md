@@ -133,7 +133,7 @@ The .ipynb files that contain the project’s codebase can be opened in Google C
 
 This notebook requires a GPU runtime. To select a GPU runtime in Google Colab navigate to Runtime - Change runtime type on the ribbon and select T4 GPU. Please note that the notebook will take approximately 10 minutes to run with the default settings. 
 
-![Runtime selection](images/colab_runtime.png)
+![Runtime selection](images/colab_runtime_type.png)
 
 The notebook requires an image titled “test.jpg” to be loaded into the environment’s file manager via the Files section of the sidebar that appears on the left hand side of the screen. The test image that was used during development is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/test.jpg. 
 
