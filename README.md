@@ -129,6 +129,8 @@ The .ipynb files that contain the project’s codebase can be opened in Google C
 -   Summative_1_Streamlit_Front_End.ipynb: <a target="_blank" href="https://colab.research.google.com/github/ph2139a/Summative_1/blob/main/Summative_1_Streamlit_Front_End.ipynb">
     <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 
+&nbsp;
+
 **Summative_1_Object_Detection_Patching_YOLO**
 
 This notebook requires a GPU runtime. To select a GPU runtime in Google Colab navigate to Runtime - Change runtime type on the ribbon and select T4 GPU. Please note that the notebook will take approximately 10 minutes to run with the default settings. 
@@ -144,6 +146,8 @@ The notebook is designed to be easily navigable via the Table of contents sectio
 ![Table of contents](images/colab_table_of_contents.png)
 
 The ribbon command Runtime - Run all will run the notebook’s cells in sequence. The Model Definition section of the code provides an option to create and attack a YOLOv5 or YOLOv3 model. Please note that YOLOv3 models caused intermittent RAM issues with Google Colab and may require further development work to implement effectively.  
+
+&nbsp;
 
 **Summative_1_Object_Detection_Patching_YOLO**
 
@@ -162,6 +166,8 @@ Please enter the IP Address that is generated in the notebook’s penultimate ce
 ![Application header](images/application_with_url.png)
 
 Please upload an image to test the application. The image that was used to produce the below screenshot is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/koala_climbing_tree.jpg. 
+
+![Protoype](images/streamlit_application_with_output.png)
 
 Any issues with Google Colab should first be addressed by restarting the notebook via Runtime - Disconnect and delete runtime. 
 
