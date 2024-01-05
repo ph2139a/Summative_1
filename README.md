@@ -118,6 +118,17 @@ Frackson, J. (2023) 4 Tips for Effective Pull Request Naming. Available at: http
 
 &nbsp;
 
+## 8. **Document your MVP with README documentation**
+
+As this README has been used to document completion of the Summative 1 assessment tasks this section will provide practical advice about how to run the code. 
+
+The .ipynb files that contain the project’s codebase can be opened in Google Colab via the links below. Note that the project was developed in Google Colab and is likely to run best within the Colab environment. 
+
+-   Summative_1_Object_Detection_Patching_YOLO.ipynb: <a target="_blank" href="https://colab.research.google.com/github/ph2139a/Summative_1/blob/main/Summative_1_Object_Detection_Patching_YOLO.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
+-   Summative_1_Streamlit_Front_End.ipynb
+
+
 
 
 ```
