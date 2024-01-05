@@ -73,15 +73,15 @@ My next step was to develop a test of my implementation. I identified a suitable
 
 **References**
 
-Redmon, J., Divvala, S., Girshick, R. and Farhadi, A. (2016). You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788).
+Redmon, J., Divvala, S., Girshick, R. and Farhadi, A. (2016) You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788).
 
-Trusted-AI (2023). Adversarial Robustness Toolbox. Available at: <https://github.com/Trusted-AI/adversarial-robustness-toolbox/tree/main> (Accessed: 21/12/2023)
+Trusted-AI (2023) Adversarial Robustness Toolbox. Available at: <https://github.com/Trusted-AI/adversarial-robustness-toolbox/tree/main> (Accessed: 21/12/2023)
 
-Trusted-AI (2023). ART - Adversarial Patch - PyTorch - YOLO. Available at (<https://github.com/Trusted-AI/adversarial-robustness-toolbox/blob/main/notebooks/adversarial_patch/attack_adversarial_patch_pytorch_yolo.ipynb> (Accessed: 21/12/2023)
+Trusted-AI (2023) ART - Adversarial Patch - PyTorch - YOLO. Available at (<https://github.com/Trusted-AI/adversarial-robustness-toolbox/blob/main/notebooks/adversarial_patch/attack_adversarial_patch_pytorch_yolo.ipynb> (Accessed: 21/12/2023)
 
-Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P. and Zitnick, C.L. (2014). Microsoft coco: Common objects in context. In Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13 (pp. 740-755). Springer International Publishing.
+Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P. and Zitnick, C.L. (2014) Microsoft coco: Common objects in context. In Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13 (pp. 740-755). Springer International Publishing.
 
-voxel51 (2023). fiftyone. Available at: <https://github.com/voxel51/fiftyone>
+voxel51 (2023) fiftyone. Available at: <https://github.com/voxel51/fiftyone>
 
 
 &nbsp;
@@ -106,10 +106,15 @@ As development progressed it became clear that it would not be possible to produ
 -   Summative_1_Object_Detection_Patching_YOLO - the MVP code discussed in sections 5 and 6 above. The code implements an adversarial patching attack on a You Only Look Once (YOLO) Pytorch model.
 -   Summative_1_Streamlit_Front_End - code for the generation of a web application that provides a functional prototype of the product design that appears in section 2 above. 
 
-Github was used to manage changes to these scripts. 
+Github was used to manage changes to these scripts. Branches were created for feature, fix and chore-type changes as suggested by Frackson (2023); these were updated until the feature worked as desired and then merged into main. 
 
 ![Gitlab Commit](images/gitlab_commit.png)
 
+&nbsp;
+
+**References**
+
+Frackson, J. (2023) 4 Tips for Effective Pull Request Naming. Available at: https://blog.montrealanalytics.com/4-tips-for-effective-pull-request-naming-f60793998f04 (Accessed: 05/01/20240 
 
 &nbsp;
 
