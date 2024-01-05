@@ -1,5 +1,5 @@
 # **Software Engineering - Summative 1** 
-## **December 2023**
+## **December 2023/January 2024**
 
 This repo has been created for [Software Engineering Summative 1](https://nchlondon.instructure.com/courses/3329/assignments/35561). The project was managed via the linked GitHub project. Status and label functionality within GitHub projects was used to keep track of relevant work.
 
@@ -137,13 +137,22 @@ This notebook requires a GPU runtime. To select a GPU runtime in Google Colab na
 
 ![Runtime selection](images/colab_runtime_type.png)
 
+&nbsp;
+
+
 The notebook requires an image titled “test.jpg” to be loaded into the environment’s file manager via the _Files_ section of the sidebar that appears on the left hand side of the screen. The test image that was used during development is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/test.jpg. 
 
 ![File selection](images/colab_files_section.png)
 
+&nbsp;
+
+
 The notebook is designed to be easily navigable via the _Table of contents_ section of the sidebar. 
 
 ![Table of contents](images/colab_table_of_contents.png)
+
+&nbsp;
+
 
 The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequence. The **Model Definition** section of the code provides an option to create and attack a YOLOv5 or YOLOv3 model. Please note that YOLOv3 models caused intermittent RAM issues with Google Colab and may require further development work to implement effectively.  
 
@@ -162,12 +171,18 @@ your url is: https://long-buses-buy.loca.lt
 Please enter the IP Address that is generated in the notebook’s penultimate cell into the Endpoint IP box to access the application. 
 
 ![Tunnel IP Location](images/tunnel_ip_location.png)
+
 ![Tunnel landing page](images/tunnel_landing_with_url.png)
+
 ![Application header](images/application_with_url.png)
+
+&nbsp;
 
 Please upload an image to test the application. The image that was used to produce the below screenshot is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/koala_climbing_tree.jpg. 
 
 ![Protoype](images/streamlit_application_with_output.png)
+
+&nbsp;
 
 Any issues with Google Colab should first be addressed by restarting the notebook via _Runtime - Disconnect_ and delete runtime and restarting via _Runtime -  Run all_.
 
