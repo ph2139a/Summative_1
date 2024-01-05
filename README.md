@@ -71,21 +71,6 @@ My next step was to develop a test of my implementation. I identified a suitable
 
 &nbsp;
 
-**References**
-
-Redmon, J., Divvala, S., Girshick, R. and Farhadi, A. (2016) You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788).
-
-Trusted-AI (2023) Adversarial Robustness Toolbox. Available at: <https://github.com/Trusted-AI/adversarial-robustness-toolbox/tree/main> (Accessed: 21/12/2023)
-
-Trusted-AI (2023) ART - Adversarial Patch - PyTorch - YOLO. Available at (<https://github.com/Trusted-AI/adversarial-robustness-toolbox/blob/main/notebooks/adversarial_patch/attack_adversarial_patch_pytorch_yolo.ipynb> (Accessed: 21/12/2023)
-
-Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P. and Zitnick, C.L. (2014) Microsoft coco: Common objects in context. In Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13 (pp. 740-755). Springer International Publishing.
-
-voxel51 (2023) fiftyone. Available at: <https://github.com/voxel51/fiftyone>
-
-
-&nbsp;
-
 ## 6. **Use Test Driven Development to produce an initial codebase for your product**
 
 Test Driven Development (TDD) was used to write a function that identifies suitable images for patch training in the dataset that was retrieved from COCO via fiftyone. 
@@ -109,12 +94,6 @@ As development progressed it became clear that it would not be possible to produ
 Github was used to manage changes to these scripts. Branches were created for feature, fix and chore-type changes as suggested by Frackson (2023); these were updated until the feature worked as desired and then merged into main. 
 
 ![Gitlab Commit](images/gitlab_commit.png)
-
-&nbsp;
-
-**References**
-
-Frackson, J. (2023) 4 Tips for Effective Pull Request Naming. Available at: https://blog.montrealanalytics.com/4-tips-for-effective-pull-request-naming-f60793998f04 (Accessed: 05/01/20240 
 
 &nbsp;
 
@@ -160,7 +139,7 @@ The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequen
 
 **Summative_1_Streamlit_Front_End**
 
-This notebook does not require a GPU runtime and has an expected runtime of around 1 minute. The ribbon command Runtime - Run all will run the notebook’s cells in sequence and start a Streamlit application. The application applies XXX’s generic adversarial patch to an uploaded image. Please note that the patch that is applied to the uploaded image is obtained from a static image that is stored at https://github.com/ph2139a/Summative_1/blob/main/images/adversarial_mask.jpg. 
+This notebook does not require a GPU runtime. The ribbon command _Runtime - Run_ all will run the notebook’s cells in sequence and start a Streamlit application. The application applies Hayes and Danezis’ (2018) generic adversarial patch to an uploaded image. Please note that the patch that is applied to the uploaded image is obtained from a static image that is stored at https://github.com/ph2139a/Summative_1/blob/main/images/adversarial_mask.jpg. 
 
 The URL that appears in the notebook’s final cell can be used to access the prototype application. Clicking on the URL will direct the user to a landing page for a tunnel website. Please note that this URL is generated dynamically and will be formatted as below: 
 
@@ -190,10 +169,20 @@ Your tunnel url https://outlined-probably-approaches-squad.trycloudflare.com
 
 &nbsp;
 
-```
-# This is a sample comment
-this_is = sample_code
-```
+**References**
 
+Frackson, J. (2023) 4 Tips for Effective Pull Request Naming. Available at: https://blog.montrealanalytics.com/4-tips-for-effective-pull-request-naming-f60793998f04 (Accessed: 05/01/20240 
+
+Hayes, J. and Danezis, G.(2018). Learning universal adversarial perturbations with generative models. In 2018 IEEE Security and Privacy Workshops (SPW) (pp. 43-49). IEEE.
+
+Redmon, J., Divvala, S., Girshick, R. and Farhadi, A. (2016) You only look once: Unified, real-time object detection. In Proceedings of the IEEE conference on computer vision and pattern recognition (pp. 779-788).
+
+Trusted-AI (2023) Adversarial Robustness Toolbox. Available at: <https://github.com/Trusted-AI/adversarial-robustness-toolbox/tree/main> (Accessed: 21/12/2023)
+
+Trusted-AI (2023) ART - Adversarial Patch - PyTorch - YOLO. Available at (<https://github.com/Trusted-AI/adversarial-robustness-toolbox/blob/main/notebooks/adversarial_patch/attack_adversarial_patch_pytorch_yolo.ipynb> (Accessed: 21/12/2023)
+
+Lin, T.Y., Maire, M., Belongie, S., Hays, J., Perona, P., Ramanan, D., Dollár, P. and Zitnick, C.L. (2014) Microsoft coco: Common objects in context. In Computer Vision--ECCV 2014: 13th European Conference, Zurich, Switzerland, September 6-12, 2014, Proceedings, Part V 13 (pp. 740-755). Springer International Publishing.
+
+voxel51 (2023) fiftyone. Available at: <https://github.com/voxel51/fiftyone>
    
 
