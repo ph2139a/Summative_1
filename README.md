@@ -118,20 +118,17 @@ This notebook requires a GPU runtime. To select a GPU runtime in Google Colab na
 
 &nbsp;
 
-
 The notebook requires an image titled “test.jpg” to be loaded into the environment’s file manager via the _Files_ section of the sidebar that appears on the left hand side of the screen. The test image that was used during development is available in this repo at https://github.com/ph2139a/Summative_1/blob/main/images/test.jpg. 
 
 ![File selection](images/colab_files_section.png)
 
 &nbsp;
 
-
 The notebook is designed to be easily navigable via the _Table of contents_ section of the sidebar. 
 
 ![Table of contents](images/colab_table_of_contents.png)
 
 &nbsp;
-
 
 The ribbon command _Runtime - Run all_ will run the notebook’s cells in sequence. The **Model Definition** section of the code provides an option to create and attack a YOLOv5 or YOLOv3 model. Please note that YOLOv3 models caused intermittent RAM issues with Google Colab and may require further development work to implement effectively.  
 
@@ -169,7 +166,41 @@ Your tunnel url https://outlined-probably-approaches-squad.trycloudflare.com
 
 &nbsp;
 
-**References**
+## 9. **Document and use a ticketing system according to the documentation. Conventionally one ticket is one feature corresponding to one branch and one pull request**
+    
+This project is managed via Github Projects. This section will describe the process of using Github Projects to track the processes of creating a feature branch, update the branch and merging into the main branch. The feature that will be added to Summative_1_Streamlit_Front_End is a drop-down menu that will allow a user to select a COCO target class from a list of available classes. 
+
+The project’s codebase has been managed via upload to Github’s UI. The first step is to download the relevant notebook via the UI:
+
+![Download a notebook](images/download_notebook.png)
+
+&nbsp;
+
+Upon implementation of the relevant code the file is uploaded and changes are committed to a new branch titled _feat-target-class-selection-dropdown_. This action creates a pull request that can be managed as a ticket within Github projects. The ticket should be assigned an appropriate status and will be marked as done automatically upon merge into main. 
+
+![Pull request in project](images/pull_request_in_project.png)
+
+&nbsp;
+
+At review of the code I realised that it would be valuable to include a URL reference for the COCO classes as a comment within the notebook. This is added to the notebook and the update is committed to the new branch. The _feat-target-class-selection-dropdown_ branch is now 2 commits ahead of the main branch. 
+
+![Branch is ahead](images/branch_ahead.png)
+
+&nbsp;
+
+The branch can now be merged into main. The branch can be deleted as there is no further requirement at this time for development on the _feat-target-class-selection-dropdown branch_. Should further development be required in future the branch can be restored via the Pull Requests menu.  
+
+![List of pull requests](images/pull_requests.png)
+
+&nbsp;
+
+The application generated via the Summative_1_Streamlit_Front_End notebook has been updated to include a dropdown menu for selecting a target class. 
+
+![Final product](images/streamlit_application_with_dropdown.png)
+
+&nbsp;
+
+## **References**
 
 Frackson, J. (2023) 4 Tips for Effective Pull Request Naming. Available at: https://blog.montrealanalytics.com/4-tips-for-effective-pull-request-naming-f60793998f04 (Accessed: 05/01/20240 
 
