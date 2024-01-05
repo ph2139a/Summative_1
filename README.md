@@ -196,7 +196,7 @@ The branch can now be merged into main. The branch can be deleted as there is no
 
 The application generated via the Summative_1_Streamlit_Front_End notebook has been updated to include a dropdown menu for selecting a target class. 
 
-![Final product](images/streamlit_application_with_dropdown.png)
+![Final product](images/streamlit_application_with_dropdown_2.png)
 
 &nbsp;
 
