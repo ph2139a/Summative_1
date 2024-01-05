@@ -100,6 +100,20 @@ Although it was not feasible to apply TDD to the entirety of the script in quest
 
 &nbsp;
 
+## 7. **Use GitHub to add features gradually**
+As development progressed it became clear that it would not be possible to produce a web application that implemented the MVP code. The code is complex and requires a series of pip installs that are both time-consuming and likely to cause issues on local machines. For this reason development time was split across two .ipynb files:
+
+-   Summative_1_Object_Detection_Patching_YOLO - the MVP code discussed in sections 5 and 6 above. The code implements an adversarial patching attack on a You Only Look Once (YOLO) Pytorch model.
+-   Summative_1_Streamlit_Front_End - code for the generation of a web application that provides a functional prototype of the product design that appears in section 2 above. 
+
+Github was used to manage changes to these scripts. 
+
+![Gitlab Commit](images/gitlab commit.png)
+
+
+&nbsp;
+
+
 
 ```
 # This is a sample comment
